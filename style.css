@@ -1,46 +1,41 @@
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-image: url(pattern-background-colorful-shape.jpg);
-            line-height: 1.6;
-        }
-        
-        .container {
-            background: url(istockphoto-956840842-612x612.jpg);
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(132, 123, 123, 0.1);
-            margin-top: 100px;
-        }
-        
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        p,form,button{
-            text-align: center;
-        }
-        button{
-            padding: 10px 15px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        #num{
-            flex-direction: column;
-        }
-        #btn{
-            margin-left: 350px;
-            margin-top: 20px;
-        }
-        #result{
-            margin-left: 250px;
-            margin-right: 250px;
-            padding: 5px;
-        }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+      background: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 30px;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      text-align: center;
+      transition: background 0.3s ease; 
+    }
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      width: 200px;
+      margin: 10px 0;
+      outline: none;
+    }
+    button {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      background: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    p {
+      margin: 8px 0;
+
+    }
